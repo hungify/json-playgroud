@@ -13,6 +13,14 @@
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit"
   },
+  "dependencies": {
+    "@vue-flow/core": "^1.33.5",
+    "dagre": "^0.8.5",
+    "floating-vue": "^5.2.2",
+    "jsonc-parser": "^3.2.1",
+    "lodash.unset": "^4.5.2",
+    "lodash.update": "^4.10.2"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^2.13.3",
     "@iconify-json/carbon": "^1.1.31",
@@ -20,6 +28,7 @@
     "@nuxt/eslint": "^0.3.6",
     "@nuxtjs/color-mode": "^3.4.0",
     "@pinia/nuxt": "^0.5.1",
+    "@types/dagre": "^0.7.52",
     "@unocss/eslint-config": "^0.59.1",
     "@unocss/nuxt": "^0.59.1",
     "@vite-pwa/nuxt": "^0.6.0",
@@ -27,8 +36,12 @@
     "consola": "^3.2.3",
     "eslint": "^9.0.0",
     "eslint-plugin-format": "^0.1.0",
+    "monaco-editor": "^0.47.0",
     "nuxt": "^3.11.2",
+    "nuxt-monaco-editor": "^1.2.7",
     "pinia": "^2.1.7",
+    "sass": "^1.75.0",
+    "type-fest": "^4.16.0",
     "typescript": "^5.4.5",
     "vue-tsc": "^2.0.12"
   }

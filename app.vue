@@ -14,6 +14,8 @@ useHead({
 </template>
 
 <style>
+import 'floating-vue/dist/style.css'
+
 html,
 body,
 #__nuxt {

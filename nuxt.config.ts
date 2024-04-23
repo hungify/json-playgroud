@@ -9,6 +9,8 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     '@nuxt/eslint',
+    'nuxt-monaco-editor',
+     'floating-vue/nuxt'
   ],
 
   experimental: {
